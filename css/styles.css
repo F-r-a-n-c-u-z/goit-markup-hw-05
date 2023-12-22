@@ -571,7 +571,7 @@ h3 {
   z-index: 1000;
 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 
   width: 100vw;
@@ -616,9 +616,17 @@ h3 {
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
 }
+.backdrop-button:hover {
+  background-color: #404bbf;
+}
+
 .button-close {
   fill: #2e2f42;
 }
+.button-close:hover {
+  fill: #fff;
+}
+
 .backdrop-p {
   margin-bottom: 16px;
 
@@ -710,6 +718,12 @@ h3 {
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
 }
+/* .checkbox:active {
+  stroke-width: 1px;
+  fill: #404bbf;
+  stroke: #404bbf;
+} */
+
 .accent {
   font-size: 12px;
   line-height: 1.13em;
