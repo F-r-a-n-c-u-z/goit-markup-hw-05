@@ -508,6 +508,7 @@ h3 {
   margin-left: auto;
 }
 .wrapper-p {
+  font-weight: 500;
   margin-bottom: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -546,12 +547,13 @@ h3 {
 .subscribe-form-button {
   display: flex;
   text-align: center;
+  align-items: center;
   justify-content: center;
-  gap: 16px;
 
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.04em;
+  min-width: 165px;
 
   padding: 8px 24px;
 
@@ -560,7 +562,10 @@ h3 {
   background-color: #4d5ae5;
 }
 .subscribe-form-icon {
+  width: 24px;
+  height: 24px;
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 /* Модальное окно */
