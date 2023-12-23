@@ -643,8 +643,8 @@ h3 {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-close:hover,
-.button-close:focus {
+.backdrop-button:hover .button-close,
+.backdrop-button:focus.button-close {
   fill: #ffffff;
 }
 
@@ -754,9 +754,9 @@ h3 {
 .checkbox {
   width: 16px;
   height: 16px;
-  /* flex-shrink: 0; */
+  flex-shrink: 0;
 
-  /* visibility: hidden; */
+  visibility: hidden;
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
 }
@@ -777,14 +777,14 @@ h3 {
   fill: transparent;
 }
 
-.checkbox + .form-label > .checkbox-icon {
+/* .checkbox + .form-label > .checkbox-icon {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
 }
 .checkbox:focus + .form-label > .checkbox-icon {
   border-color: #4d5ae5;
-}
+} */
 
 .label-link {
   font-size: 12px;
