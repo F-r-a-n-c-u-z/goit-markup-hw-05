@@ -652,7 +652,12 @@ h3 {
   color: #2e2f42;
 }
 
-.modal-p {
+.form-field {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.form-label {
   display: block;
   margin-bottom: 4px;
 
@@ -660,13 +665,6 @@ h3 {
   line-height: 1.16em;
   letter-spacing: 0.04em;
   color: #8e8f99;
-}
-.form-field {
-  position: relative;
-  margin-bottom: 8px;
-}
-
-.form-label {
 }
 
 .form-icon {
