@@ -627,6 +627,7 @@ h3 {
   align-items: center;
   justify-content: center;
 
+  
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   stroke: rgba(0, 0, 0, 0.1);
@@ -635,8 +636,8 @@ h3 {
 }
 .backdrop-button:hover,
 .backdrop-button:focus {
-  background-color: #404bbf;
   border: none;
+  background-color: #404bbf;
 }
 
 .button-close {
@@ -756,7 +757,7 @@ h3 {
   height: 16px;
   flex-shrink: 0;
 
-  visibility: hidden;
+  /* visibility: hidden; */
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
 }
@@ -764,6 +765,7 @@ h3 {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
+  margin-right: 8px;
 
   display: inline-flex;
   align-items: center;
@@ -777,14 +779,12 @@ h3 {
   fill: transparent;
 }
 
-/* .checkbox + .form-label > .checkbox-icon {
+.checkbox:checked + .form-label > .checkbox-span {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
 }
-.checkbox:focus + .form-label > .checkbox-icon {
-  border-color: #4d5ae5;
-} */
+
 
 .label-link {
   font-size: 12px;
