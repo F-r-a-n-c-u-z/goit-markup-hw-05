@@ -760,15 +760,15 @@ h3 {
   stroke: rgba(46, 47, 66, 0.4);
 }
 .checkbox-label {
-  display: inline-flex;
 
   font-size: 12px;
   line-height: 1.17em;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  user-select: none;
 }
 
-/* .checkbox-span {
+.checkbox-span {
   display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
@@ -777,6 +777,8 @@ h3 {
   flex-shrink: 0;
   margin-right: 8px;
 
+  
+  cursor:pointer;
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -790,9 +792,10 @@ h3 {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
-} */
+}
 
 .label-link {
+  margin-left: 4px;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.04em;
