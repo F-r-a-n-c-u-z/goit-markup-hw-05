@@ -768,7 +768,7 @@ h3 {
   color: #8e8f99;
 }
 
-.checkbox-span {
+/* .checkbox-span {
   display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
@@ -790,7 +790,7 @@ h3 {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
-}
+} */
 
 .label-link {
   font-size: 12px;
